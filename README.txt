@@ -22,7 +22,7 @@ It has features like unread notification, new-read message, delete message - all
 
 == Frequently Asked Questions ==
 How to add Form to the site? =
-Use the shortcode `[feedback_form]` in any post, page, or widget area where you want the feedback form to appear.
+Use the shortcode `[jovi_feedback_form]` in any post, page, or widget area where you want the feedback form to appear.
 
 Is this plugin free?
 Yes, it is completely f free and open source software.
