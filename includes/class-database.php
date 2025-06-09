@@ -35,8 +35,8 @@ class JOVI_Database {
         dbDelta($sql);
 
         // Set initial version
-        if (!self::get_db_version()) {
-            add_option('jovi_db_version', '1.1');
+        if (get_option('jovi_db_version') === false) {
+        add_option('jovi_db_version', '1.1');
         }
     }
 
