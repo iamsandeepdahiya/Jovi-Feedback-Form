@@ -12,8 +12,8 @@ if (!current_user_can('manage_options')) {
 global $wpdb;
 $table_name = $wpdb->prefix . 'feedback_submissions';
 
-// Add pagination
-$per_page = 20;
+// Add pagination for 15 per page
+$per_page = 15;
 $current_page = isset($_GET['paged']) ? max(1, intval($_GET['paged'])) : 1;
 $offset = ($current_page - 1) * $per_page;
 
